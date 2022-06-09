@@ -4,9 +4,9 @@ services:
     build: .
     image: ubuntu
     container_name: 9cc
-    tty: true
+    tty: false
     platform: linux/x86_64
     volumes:
       - .:/9cc
     working_dir: /9cc
-    command: bash
+    # command: bash
